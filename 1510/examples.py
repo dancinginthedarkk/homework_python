@@ -1,0 +1,6 @@
+print("{0:^20s}".format("hey"))
+print("{0:^10d}{1:>10d}".format(22,33))
+print("{n}{m}".format(n = 4, m = 5))
+print("{0:d}{1:s}".format(4, "hello"))
+print("{0:10d}".format(10000))
+print("{0:!^10d}{1:!^20d}".format(22,33))
